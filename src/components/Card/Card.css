@@ -1,0 +1,46 @@
+.cards-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 100%;
+  }
+  
+  .card-container {
+    color: white;
+    font-family: 'Macondo', cursive;
+    width: 300px;
+    height: auto;
+    border: 1px red solid;
+    border-radius: 10px;
+  }
+  
+  .card-container:hover {
+    transform: translateY(-10%);
+    transition-timing-function: ease-in-out;
+  }
+
+  .card-header-container {
+    background-color: black;
+    height: 80px;
+    width: 100%;
+  }
+  
+  .card-title {
+    font-size: 2rem;
+  }
+
+  .card-image-container {
+    background-color: grey;
+  }
+  
+  .card-image {
+    width: auto;
+    height: 200px;
+  }
+  
+  .card-body-container {
+  }
+
+  .card-body-text {
+    font-size: 1rem;
+  }

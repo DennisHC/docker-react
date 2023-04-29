@@ -1,5 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Macondo&display=swap');
 
+* {
+  box-sizing: border-box;
+  font-family: 'Macondo', cursive;
+}
+
 .App {
   text-align: center;
 }
@@ -37,41 +42,4 @@
   to {
     transform: rotate(360deg);
   }
-}
-
-.cards-container {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-evenly;
-  width: 100%;
-}
-
-.card-container {
-  color: white;
-  font-family: 'Macondo', cursive;
-  width: 300px;
-  height: auto;
-  border: 1px red solid;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-
-.card-container:hover {
-  transform: translateY(-10%);
-  transition-timing-function: ease-in-out;
-}
-
-.card-title {
-  font-size: 2rem;
-}
-
-.card-image {
-  width: 10rem;
-  height: auto;
-}
-
-.card-body-text {
-  font-size: 1rem;
 }
